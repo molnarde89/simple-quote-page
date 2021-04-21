@@ -1,4 +1,25 @@
 body {
-  background: src="assets/freedom.jpg" no-repeat center center fixed;
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
   background-size: cover;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1, p {
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-weight: 100;
+  margin-top: 100px;
+  line-height: 170%;
+  font-size: 42px;
+}
+
+p {
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 80px;
 }
